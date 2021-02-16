@@ -1308,4 +1308,17 @@ public interface RSClient extends RSGameShell, Client
 
 	@Import("pcmSampleLength")
 	void setPcmSampleLength(int var0);
+
+	@Import("port1")
+	int getPort();
+
+	@Import("port1")
+	void setPort(int port);
+
+	@Import("worldHost")
+	String getHost();
+
+	@Import("worldHost")
+	void setHost(String host);
+
 }
